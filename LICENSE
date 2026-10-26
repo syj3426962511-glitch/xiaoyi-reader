@@ -1,0 +1,16 @@
+Copyright (c) 2026 XiaoYi Reader project. All rights reserved.
+
+This public repository provides project documentation, screenshots of the
+project using self-authored demonstration materials, aggregate test results,
+and a static presentation website for personal reference and learning.
+
+It does not publish or license the private client, its core source code,
+translation/layout algorithms, model weights, or account-service code.
+Public visibility must not be interpreted as an open-source license for
+those private components.
+
+For redistribution, adaptation, commercial use, access to the client, or
+further permissions, please contact: 3426962511@qq.com.
+
+Third-party names and projects retain their own rights and licenses.
+Nothing in this notice changes third-party license obligations.

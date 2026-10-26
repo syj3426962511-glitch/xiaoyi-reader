@@ -1,0 +1,30 @@
+name: 反馈使用问题
+description: 请提供可核对的复现信息，并移除个人信息。
+title: "[反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: "请勿上传密钥、Token、真实账号信息或未获许可的文档全文。需要私下交流请联系 3426962511@qq.com。"
+  - type: input
+    id: version
+    attributes:
+      label: 客户端版本和操作系统
+      placeholder: "例如：1.43.4 / Windows"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤、具体页码及翻译通道
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏截图或补充说明
