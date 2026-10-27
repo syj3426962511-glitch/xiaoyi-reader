@@ -1,5 +1,11 @@
 # 小奕译读 · XiaoYi Reader
 
+> **最新验证：1.43.7（2026-10-27）**。三份文档共41页完成补译与版面复检；最终打包客户端另有12页实机任务通过。查看[本版功能、实测与限制](guides/RELEASE-1.43.7.md)及[去敏结果](docs/results/validation-1.43.7.json)。[官网与下载](https://xiaoyi-reader.syj3426962511.chatgpt.site/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/)。下方1.43.4部分保留为历史记录。
+
+![1.43.7真实客户端内容截图](docs/assets/02-real-client-1437.png)
+
+*本机正式客户端实际窗口内容；原图未修改，不含Windows标题栏。截图中仍有独立任务状态，完成结果以本版任务记录为准。*
+
 **面向论文阅读的 Windows 桌面工具：文档翻译、双语对照、专业知识与图文研读。**
 
 [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/) · [功能详解](guides/FEATURES.md) · [截图与测试结果](guides/TESTING.md) · [使用指南](guides/USER_GUIDE.md) · [常见问题](guides/FAQ.md) · [联系作者](mailto:3426962511@qq.com)
@@ -93,5 +99,5 @@
 
 公开范围见 [PUBLICATION_SCOPE.md](PUBLICATION_SCOPE.md)，资料使用说明见 [LICENSE](LICENSE)。仓库公开不代表核心软件采用开源许可证。
 
-**联系邮箱：3426962511@qq.com**  
+**联系邮箱：3426962511@qq.com**
 如需客户端、技术交流、试用或合作，请说明用途、操作系统、文档类型和遇到的问题。请勿在公开 Issue 中粘贴账号密钥或未获许可的文档。

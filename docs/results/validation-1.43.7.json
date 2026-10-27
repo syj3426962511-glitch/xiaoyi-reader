@@ -1,0 +1,71 @@
+{
+  "version": "1.43.7",
+  "date": "2026-10-27",
+  "provider": "有道在线（作者共享云端）",
+  "documents": [
+    {
+      "name": "NPJ",
+      "pages": 13,
+      "status": "completed_with_warnings",
+      "coverage": {
+        "eligible_units": 134,
+        "rendered_units": 134,
+        "unresolved_units": 0,
+        "protected_units": 63
+      },
+      "pdf_hard_issues": 0,
+      "pdf_review_items": 0
+    },
+    {
+      "name": "NC",
+      "pages": 12,
+      "status": "completed_with_warnings",
+      "coverage": {
+        "eligible_units": 113,
+        "rendered_units": 113,
+        "unresolved_units": 0,
+        "protected_units": 45
+      },
+      "pdf_hard_issues": 0,
+      "pdf_review_items": 0
+    },
+    {
+      "name": "Applied Energy",
+      "pages": 16,
+      "status": "completed_with_warnings",
+      "coverage": {
+        "eligible_units": 198,
+        "rendered_units": 198,
+        "unresolved_units": 0,
+        "protected_units": 121
+      },
+      "pdf_hard_issues": 0,
+      "pdf_review_items": 0
+    }
+  ],
+  "final_packaged_client": {
+    "pages": 12,
+    "completed": 12,
+    "unresolved": 0,
+    "seconds": 255.5779999999795,
+    "cache_condition": "复用已有句缓存；不是全新文档首译计时",
+    "actual_gui_translation": true,
+    "source_py_files": 0,
+    "pdf_hard_issues": 0,
+    "pdf_review_items": 0
+  },
+  "screenshot": {
+    "file": "02-real-client-1437.png",
+    "sha256": "3b758bddcbda5f16cd7211a60568db374dc49cf08c2a1c320caaf2954cbd9479",
+    "origin": "正式打包客户端运行真实PDF任务时的实际可见窗口内容抓取；未重绘、拼接或修改像素，不包含Windows标题栏",
+    "capture_note": "截图底部仍显示独立任务处理中；12/12完成结果来自同次任务记录，不从截图推断。"
+  },
+  "semantic_accuracy_certified": false,
+  "controlled_self_repair": {
+    "before_errors": 1,
+    "after_errors": 0,
+    "paid_api_requests": 0,
+    "semantic_accuracy_certified": false,
+    "test": "隔离副本人为移除一条超链接；后台持久化任务自动发现、修复并复检通过"
+  }
+}
