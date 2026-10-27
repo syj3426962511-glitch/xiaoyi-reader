@@ -1,0 +1,42 @@
+{
+  "version": "1.43.9",
+  "test_date": "2026-10-28",
+  "client_candidate": "v8",
+  "model": "Qwen3 4B local",
+  "ten_page_sample": {
+    "source_pages": 10,
+    "output_pages": 10,
+    "recognized_text_regions": 160,
+    "rendered_recognized_regions": 160,
+    "unresolved_recognized_regions": 0,
+    "elapsed_seconds": 201.531,
+    "cached_sentences": 411,
+    "new_sentences": 2,
+    "figure_formula_source_labels_to_review": 46,
+    "preserved_symbols_or_labels_to_review": 38
+  },
+  "paragraph_alignment": {
+    "measured_multiline": 65,
+    "previous_median_tail_error_pt": 7.6,
+    "new_median_tail_error_pt": 0.26,
+    "new_over_11pt": 3,
+    "new_worst_error_pt": 16.69
+  },
+  "source_links_checked": 209,
+  "missing_valid_link_targets": 0,
+  "independent_first_page": {
+    "candidate": "v7",
+    "pages": 1,
+    "elapsed_seconds_under_concurrent_build": 543.063,
+    "new_sentences": 29,
+    "recognized_regions": 9,
+    "rendered_regions": 9,
+    "no_cache": true
+  },
+  "screenshot_sha256": "c2ef2a5294e5a9a52f1dbaf0c656980a814b3dbb861e0d7a73addd7a38df4aa8",
+  "limitations": [
+    "unrecognized figure and formula labels require review",
+    "text embedded in raster images may not be detected",
+    "no universal guarantee of translation accuracy or alignment"
+  ]
+}

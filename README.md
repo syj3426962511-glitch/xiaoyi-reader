@@ -1,6 +1,8 @@
 # 小奕译读 · XiaoYi Reader
 
-> **最新验证：1.43.7（2026-10-27）**。三份文档共41页完成补译与版面复检；最终打包客户端另有12页实机任务通过。查看[本版功能、实测与限制](guides/RELEASE-1.43.7.md)及[去敏结果](docs/results/validation-1.43.7.json)。[官网与下载](https://xiaoyi-reader.syj3426962511.chatgpt.site/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/)。下方1.43.4部分保留为历史记录。
+> **新增 1.43.9 实机验证（2026-10-28）**：10 页样本的 160 个识别正文区域均有输出，段落末尾偏差明显下降；仍有 46 个图表或公式词项需核对，不能保证所有页面无遗漏。详见[结果与限制](guides/RELEASE-1.43.9.md)和[去敏测试数据](docs/results/validation-1.43.9.json)。
+
+> **历史验证：1.43.7（2026-10-27）**。三份文档共41页完成补译与版面复检；最终打包客户端另有12页实机任务通过。查看[本版功能、实测与限制](guides/RELEASE-1.43.7.md)及[去敏结果](docs/results/validation-1.43.7.json)。[官网与下载](https://xiaoyi-reader.syj3426962511.chatgpt.site/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/)。下方1.43.4部分保留为历史记录。
 
 ![1.43.7真实客户端内容截图](docs/assets/02-real-client-1437.png)
 
