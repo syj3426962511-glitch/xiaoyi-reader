@@ -1,0 +1,168 @@
+{
+  "version": "1.43.20",
+  "date": "2026-10-29",
+  "status": "verified_installed_full_document_and_uninstall",
+  "provider": "Qwen3 4B local CUDA",
+  "app_modules": 241,
+  "modified_vendor_modules": 5,
+  "payload_files": 5027,
+  "installed_payload_comparison": {
+    "expected_files": 5027,
+    "actual_files": 5027,
+    "missing": [],
+    "unexpected": [],
+    "different": []
+  },
+  "frozen_exe_sha256": "e0657692b60ff58371bdf40efe2c8c88382dc32c10f9a2bb20fc4fef986e56ca",
+  "installer_sha256": "e9a602a3840ff9454a6e11e241c84c1dcfd535f5e6dcbf49f184300a8b5b88e7",
+  "installer_bytes": 3828543259,
+  "feature_groups": [
+    {
+      "name": "smoke",
+      "exit_code": 0
+    },
+    {
+      "name": "document-engine",
+      "exit_code": 0
+    },
+    {
+      "name": "document-process",
+      "exit_code": 0
+    },
+    {
+      "name": "original-media",
+      "exit_code": 0
+    },
+    {
+      "name": "flows",
+      "exit_code": 0
+    },
+    {
+      "name": "position",
+      "exit_code": 0
+    },
+    {
+      "name": "annotation",
+      "exit_code": 0
+    },
+    {
+      "name": "pages",
+      "exit_code": 0
+    },
+    {
+      "name": "knowledge",
+      "exit_code": 0
+    },
+    {
+      "name": "study",
+      "exit_code": 0
+    },
+    {
+      "name": "workspace",
+      "exit_code": 0
+    },
+    {
+      "name": "responsiveness",
+      "exit_code": 0
+    },
+    {
+      "name": "welcome-qr",
+      "exit_code": 0
+    }
+  ],
+  "generic_notation_cases": 27,
+  "unit_regression_cases": 13,
+  "first_translated_preview_seconds": 394.094,
+  "real_documents": [
+    {
+      "sample": "NG10",
+      "pages": 10,
+      "translated_pages": 10,
+      "seconds": 360.532,
+      "cache_condition": "reused genuine local sentence cache from the preceding cold run",
+      "eligible_regions": 165,
+      "rendered_regions": 165,
+      "unfilled_regions": 0,
+      "sentences": 339,
+      "translated_records": 303,
+      "preserved_records": 36,
+      "failed": 0,
+      "pending": 0,
+      "sentence_cache_hits": 338,
+      "new_sentence_translations": 0,
+      "hard_pdf_issues": 0,
+      "source_links": 159,
+      "target_links": 165,
+      "body_font_sizes": [
+        9.0,
+        9.34,
+        10.17,
+        10.19
+      ],
+      "native_label_review_count": 38,
+      "pdf_sha256": "3e6d236a0d93d65c50a141d216b44aced7d9583bf1fcb430d85ea967f9c1b0b0"
+    },
+    {
+      "sample": "NC12",
+      "pages": 12,
+      "translated_pages": 12,
+      "seconds": 1329.266,
+      "cache_condition": "cold installed profile; no translation cache copied",
+      "eligible_regions": 113,
+      "rendered_regions": 113,
+      "unfilled_regions": 0,
+      "sentences": 365,
+      "translated_records": 363,
+      "preserved_records": 2,
+      "failed": 0,
+      "pending": 0,
+      "sentence_cache_hits": 0,
+      "new_sentence_translations": 358,
+      "hard_pdf_issues": 0,
+      "source_links": 236,
+      "target_links": 228,
+      "body_font_sizes": [
+        9.76,
+        9.8,
+        10.17,
+        10.58,
+        11.0
+      ],
+      "native_label_review_count": 21,
+      "pdf_sha256": "f9a1b5be71b4c75c3fb3afe74f1076e096ed2a8d8d72b4b4e78d1310e6058c18"
+    }
+  ],
+  "source_unchanged": true,
+  "fixed_translation_fixture": false,
+  "uninstall_user_data_preserved": true,
+  "semantic_accuracy_certified": false,
+  "paper_attribution": {
+    "title": "Observed different impacts of potential tree restoration on local surface and air temperature",
+    "authors": "Yitao Li et al.",
+    "year": 2025,
+    "doi": "https://doi.org/10.1038/s41467-025-57606-y",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "adaptation": "Right-hand paper pages show machine translation. Screenshots show the actual installed desktop application."
+  },
+  "screenshots": [
+    {
+      "file": "assets/04-installed-client-14320.png",
+      "sha256": "ff51af4793912248e73bcec82d38ff5e18c7d1a726972eba84c1a238a346d86a",
+      "source": "Actual installed Qt main window grab; pixels unchanged",
+      "edited": false
+    },
+    {
+      "file": "assets/05-installed-page4-14320.png",
+      "sha256": "ad2fcc5d9ac42b89a53738ddbfe39792c5ad6c127deb35b11a5f5512018fe670",
+      "source": "Actual installed Qt main window grab; pixels unchanged",
+      "edited": false
+    },
+    {
+      "file": "assets/06-installed-page8-14320.png",
+      "sha256": "21006404c3e2aed2c39ef85e589cb08cb8d74f580d8c72298ee0ad080d1fb288",
+      "source": "Actual installed Qt main window grab; pixels unchanged",
+      "edited": false
+    }
+  ]
+}
