@@ -1,12 +1,12 @@
 # 小奕译读 · XiaoYi Reader
 
-**Windows文献阅读工具：双语PDF、本地翻译、研读笔记、专业知识和图文阅读。当前验证版本：1.43.20。**
+**Windows文献阅读工具：双语PDF、本地翻译、研读笔记、专业知识和图文阅读。当前验证版本：1.43.21。**
 
-[官网与下载](https://xiaoyi-reader.syj3426962511.chatgpt.site/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/) · [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/) · [详细功能与实测](guides/RELEASE-1.43.20.md) · [去敏结果](docs/results/validation-1.43.20.json)
+[官网与下载](https://xiaoyi-reader.syj3426962511.chatgpt.site/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/) · [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/) · [详细功能与实测](guides/RELEASE-1.43.21.md) · [去敏结果](docs/results/validation-1.43.21.json)
 
-![实际安装版客户端完成12页全文](docs/assets/04-installed-client-14320.png)
+![实际安装版客户端完成12页全文](docs/assets/04-installed-client-14321.png)
 
-实际安装后窗口的原始截图，论文采用CC BY 4.0，右栏为机器翻译。未生成或重画界面。截图像素、原文来源、适用范围见[版本说明](guides/RELEASE-1.43.20.md)。
+实际安装后窗口的原始截图，论文采用CC BY 4.0，右栏为机器翻译。未生成或重画界面。截图像素、原文来源、适用范围见[版本说明](guides/RELEASE-1.43.21.md)。
 
 ## 功能
 
@@ -27,11 +27,11 @@
 ## 本轮测试结果
 
 - 本地Qwen处理两篇真实论文：10页和12页，保留原页数；回填分别165/165和113/113个区域，失败/等待均为0，实际PDF阻断问题为0。
-- 12页使用实际安装版的正常启动和打开文件流程，无复制译文缓存：1329.266秒，首批译文预览394.094秒。10页复用前轮真实缓存：360.532秒。两种条件分别报告，不据此承诺任意20页耗时。
-- 冻结客户端13组功能回归、27个原生符号组合用例通过。安装后的5027个生产文件逐个核对无差异；卸载保留用户数据。
+- 12页使用实际安装版的正常启动和打开文件流程，复用前轮真实句子缓存并重建PDF：313.141秒，首批译文预览53.281秒。10页复用前轮真实缓存：386.563秒。两种条件分别报告，不据此承诺任意20页耗时。
+- 冻结客户端13组功能回归、27个原生符号组合及6项数值换行用例通过。安装后的5027个生产文件逐个核对无差异；卸载保留用户数据。
 - 保留图内原文标签核对提示；自动检查不等同于专业语义人工审校。在线图文质量本轮未新增付费调用。
 
-[完整说明与另外两张实际页面](guides/RELEASE-1.43.20.md) · [测试摘要JSON](docs/results/validation-1.43.20.json)。
+[完整说明与另外两张实际页面](guides/RELEASE-1.43.21.md) · [测试摘要JSON](docs/results/validation-1.43.21.json)。
 
 ## 使用与资料范围
 

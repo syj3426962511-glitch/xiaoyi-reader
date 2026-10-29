@@ -1,0 +1,178 @@
+{
+  "version": "1.43.21",
+  "date": "2026-10-29",
+  "status": "verified_installed_full_document_and_uninstall",
+  "provider": "Qwen3 4B local CUDA",
+  "app_modules": 242,
+  "modified_vendor_modules": 5,
+  "payload_files": 5027,
+  "installed_payload_comparison": {
+    "expected_files": 5027,
+    "actual_files": 5027,
+    "missing": [],
+    "unexpected": [],
+    "different": []
+  },
+  "frozen_exe_sha256": "9b62903c81cab806ecdabdb25c315612b204b1685f245a89145929ceff8209e3",
+  "installer_sha256": "ad873a8a09328637d8f604faada07ca3786259208fdbd83a3e6af04a3a83f3eb",
+  "installer_bytes": 3828548580,
+  "feature_groups": [
+    {
+      "name": "smoke",
+      "exit_code": 0
+    },
+    {
+      "name": "document-engine",
+      "exit_code": 0
+    },
+    {
+      "name": "document-process",
+      "exit_code": 0
+    },
+    {
+      "name": "original-media",
+      "exit_code": 0
+    },
+    {
+      "name": "flows",
+      "exit_code": 0
+    },
+    {
+      "name": "position",
+      "exit_code": 0
+    },
+    {
+      "name": "annotation",
+      "exit_code": 0
+    },
+    {
+      "name": "pages",
+      "exit_code": 0
+    },
+    {
+      "name": "knowledge",
+      "exit_code": 0
+    },
+    {
+      "name": "study",
+      "exit_code": 0
+    },
+    {
+      "name": "workspace",
+      "exit_code": 0
+    },
+    {
+      "name": "responsiveness",
+      "exit_code": 0
+    },
+    {
+      "name": "welcome-qr",
+      "exit_code": 0
+    }
+  ],
+  "generic_notation_cases": 27,
+  "unit_regression_cases": 19,
+  "numeric_line_break_cases": 6,
+  "first_translated_preview_seconds": 53.281,
+  "real_documents": [
+    {
+      "sample": "NG10",
+      "pages": 10,
+      "translated_pages": 10,
+      "seconds": 386.563,
+      "cache_condition": "reused genuine local sentence cache from preceding accepted run",
+      "eligible_regions": 165,
+      "rendered_regions": 165,
+      "unfilled_regions": 0,
+      "sentences": 339,
+      "translated_records": 303,
+      "preserved_records": 36,
+      "failed": 0,
+      "pending": 0,
+      "sentence_cache_hits": 338,
+      "new_sentence_translations": 0,
+      "hard_pdf_issues": 0,
+      "source_links": 159,
+      "target_links": 165,
+      "body_font_sizes": [
+        9.0,
+        9.34,
+        10.17,
+        10.19
+      ],
+      "native_label_review_count": 38,
+      "numeric_values_checked": 378,
+      "pdf_sha256": "6cb70fc5e899f5e5d777347565ea0e1e62eaad22fbe8d43b0dc35a3fc0da1d62"
+    },
+    {
+      "sample": "NC12",
+      "pages": 12,
+      "translated_pages": 12,
+      "seconds": 313.141,
+      "cache_condition": "reused genuine 1.43.20 installed cold-run sentence cache; unchanged inference code; full PDF regenerated and checked",
+      "eligible_regions": 113,
+      "rendered_regions": 113,
+      "unfilled_regions": 0,
+      "sentences": 365,
+      "translated_records": 363,
+      "preserved_records": 2,
+      "failed": 0,
+      "pending": 0,
+      "sentence_cache_hits": 363,
+      "new_sentence_translations": 0,
+      "hard_pdf_issues": 0,
+      "source_links": 236,
+      "target_links": 228,
+      "body_font_sizes": [
+        9.76,
+        9.8,
+        10.17,
+        10.58,
+        11.0
+      ],
+      "native_label_review_count": 21,
+      "numeric_values_checked": 329,
+      "pdf_sha256": "b5edd7e16d05c49aa74fd1769d6c3c623f647ea09d48bb812a31b2ff786e5997"
+    }
+  ],
+  "source_unchanged": true,
+  "fixed_translation_fixture": false,
+  "uninstall_user_data_preserved": true,
+  "semantic_accuracy_certified": false,
+  "paper_attribution": {
+    "title": "Observed different impacts of potential tree restoration on local surface and air temperature",
+    "authors": "Yitao Li et al.",
+    "year": 2025,
+    "doi": "https://doi.org/10.1038/s41467-025-57606-y",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "adaptation": "Right-hand paper pages show machine translation. Screenshots show the actual installed desktop application."
+  },
+  "screenshots": [
+    {
+      "file": "assets/04-installed-client-14321.png",
+      "sha256": "d5d849d73ad4514e87ab8798a5413c2b415ec05951fe33c1be4be8a2f3974fef",
+      "source": "Actual installed Qt main window grab; pixels unchanged",
+      "edited": false
+    },
+    {
+      "file": "assets/05-installed-page4-14321.png",
+      "sha256": "536547ecd4f4c2ee65ef9c6d510fe9c9c8f67cf209724fb06abc5a93ced36f05",
+      "source": "Actual installed Qt main window grab; pixels unchanged",
+      "edited": false
+    },
+    {
+      "file": "assets/06-installed-page8-14321.png",
+      "sha256": "67edb78bf44e759ace2ba5aae74d83c18b35254186e72701650a0ded23f000c5",
+      "source": "Actual installed Qt main window grab; pixels unchanged",
+      "edited": false
+    }
+  ],
+  "preceding_cold_run": {
+    "version": "1.43.20",
+    "pages": 12,
+    "seconds": 1329.266,
+    "first_preview_seconds": 394.094,
+    "note": "Previous actual installed cold run; translation and model code unchanged in 1.43.21, only layout and postflight changed."
+  }
+}
