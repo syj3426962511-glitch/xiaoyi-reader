@@ -1,0 +1,190 @@
+{
+  "version": "1.43.24",
+  "date": "2026-10-31",
+  "status": "verified_installed_full_document_and_uninstall",
+  "provider": "local Qwen3 4B",
+  "source_pages": 47,
+  "completed_pages": 47,
+  "cache_condition": "Fresh real installation, zero imported sentence cache; repeated text inside this 47-page original can hit cache generated during this same run.",
+  "seconds": 1276.985,
+  "first_translated_preview_seconds": 63.922,
+  "coverage": {
+    "eligible_units": 541,
+    "rendered_units": 541,
+    "unresolved_units": 0,
+    "protected_units": 1471
+  },
+  "sentence_summary": {
+    "version": "sentence-reader-v5-native-identifiers",
+    "sentences": 1125,
+    "complete_sentence_records": 809,
+    "heading_or_label_records": 188,
+    "incomplete_fragment_records": 128,
+    "translated": 1113,
+    "preserved_source_records": 12,
+    "source_records_requiring_review": 8,
+    "failed": 0,
+    "pending": 0,
+    "legacy_unaligned": 0,
+    "reviewed_group_sentences": 0,
+    "reviewed_translation_groups": 0,
+    "sentence_cache_hits": 437,
+    "new_sentence_translations": 673,
+    "aligned_existing_sentences": 0,
+    "api_context_usage": "LLM: explicit reference context; NMT: source sentence plus local contextual terminology and review",
+    "display": "coherent paragraphs; no forced per-sentence line break"
+  },
+  "pdf_hard_issues": 0,
+  "source_unchanged": true,
+  "source_language": "auto",
+  "fixed_translation_fixture": false,
+  "body_font_policy": {
+    "enabled": true,
+    "policy": "readable-body-11pt-v2",
+    "scope": "body_per_source_page",
+    "preferred_pt": 11.0,
+    "minimum_allowed_pt": 9.0,
+    "page_fonts": {
+      "2": 10.55,
+      "3": 10.0,
+      "4": 11.0,
+      "5": 10.5,
+      "6": 9.9,
+      "7": 10.5,
+      "8": 11.0,
+      "9": 10.0,
+      "10": 11.0,
+      "11": 10.5,
+      "12": 9.5,
+      "13": 9.9,
+      "14": 11.0,
+      "15": 11.0,
+      "20": 11.0,
+      "21": 11.0,
+      "23": 9.0,
+      "24": 10.5,
+      "25": 10.55,
+      "26": 10.0,
+      "27": 11.0,
+      "28": 10.5,
+      "29": 9.9,
+      "30": 10.5,
+      "31": 11.0,
+      "32": 10.0,
+      "33": 11.0,
+      "34": 10.5,
+      "35": 9.5,
+      "36": 9.9,
+      "37": 11.0,
+      "38": 11.0,
+      "43": 11.0,
+      "44": 11.0,
+      "46": 9.0,
+      "47": 10.5
+    },
+    "silent_shrink": false,
+    "regions": 236,
+    "includes_tables_and_captions": false,
+    "table_caption_policy": "fit_independently_in_native_region",
+    "native_formula_scripts_preserved": true,
+    "same_translated_IL_reused": true,
+    "additional_provider_requests": 0,
+    "all_regions_fit": true
+  },
+  "source_links": 18,
+  "target_links": 18,
+  "payload_files": 5027,
+  "payload_comparison": {
+    "expected_files": 5027,
+    "actual_files": 5027,
+    "missing": [],
+    "unexpected": [],
+    "different": []
+  },
+  "frozen_exe_sha256": "c238560a839f5e04081271a1c335e2909cc1bb9f5470fb4d738e0a04a6189e4c",
+  "installer_sha256": "69defeb76fd0f7245c5759d5270356fe759afa785300c0856dab2a8843b58f0c",
+  "installer_bytes": 3828559336,
+  "frozen_application_modules": 242,
+  "modified_vendor_modules": 5,
+  "feature_groups": [
+    {
+      "name": "smoke",
+      "exit_code": 0
+    },
+    {
+      "name": "document-engine",
+      "exit_code": 0
+    },
+    {
+      "name": "document-process",
+      "exit_code": 0
+    },
+    {
+      "name": "original-media",
+      "exit_code": 0
+    },
+    {
+      "name": "flows",
+      "exit_code": 0
+    },
+    {
+      "name": "position",
+      "exit_code": 0
+    },
+    {
+      "name": "annotation",
+      "exit_code": 0
+    },
+    {
+      "name": "pages",
+      "exit_code": 0
+    },
+    {
+      "name": "knowledge",
+      "exit_code": 0
+    },
+    {
+      "name": "study",
+      "exit_code": 0
+    },
+    {
+      "name": "workspace",
+      "exit_code": 0
+    },
+    {
+      "name": "responsiveness",
+      "exit_code": 0
+    },
+    {
+      "name": "welcome-qr",
+      "exit_code": 0
+    }
+  ],
+  "source_regressions": 31,
+  "native_notation_cases": 27,
+  "numeric_layout_cases": 6,
+  "real_model_regression_cases": 10,
+  "uninstall_user_data_preserved": true,
+  "semantic_accuracy_certified": false,
+  "private_document_content_published": false,
+  "screenshot": {
+    "url": "https://xiaoyi-reader.syj3426962511.chatgpt.site/validation/assets/reading-14324.png",
+    "sha256": "7e6bf29c9a1912887309b20ddd90846d4aa1ea8aec45291a61cdb5aa4b40f329",
+    "source": "Actual 1.43.24 Qt window grab, unchanged pixels. The reading example loads the previously verified 1.43.21 translation of a public CC BY paper; it is not a new translation benchmark.",
+    "paper_doi": "https://doi.org/10.1038/s41467-025-57606-y",
+    "paper_authors": "Yitao Li et al.",
+    "paper_year": 2025,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "adaptation": "Right-hand paper pages are machine translation."
+  },
+  "download_publication": {
+    "new_installer_version": "1.43.24",
+    "local_installer_verified": true,
+    "new_installer_uploaded": false,
+    "latest_download_promoted": false,
+    "account_api_online_verified": false,
+    "reason": "Local proxy TLS handshake reset; direct route returned Cloudflare HTTP 403. Browser verification stopped by URL confidence policy.",
+    "browser_automation_stopped": true
+  }
+}
