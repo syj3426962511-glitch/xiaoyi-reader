@@ -1,0 +1,106 @@
+{
+  "version": "1.43.25",
+  "exe_sha256": "adde00ef0489025307e7397f11c8347189aaf4af6c6c71643f65c91f4db883e6",
+  "installer_sha256": "8523b2934956e2886c9c5b2674503852b49d21069658068e62c3926c43353b12",
+  "same_window_installed_documents": [
+    8,
+    12
+  ],
+  "initial_imported_translation_cache_files": 0,
+  "frozen_feature_groups": 13,
+  "source_regressions": 47,
+  "verified_application_modules": 242,
+  "verified_babeldoc_modules": 182,
+  "production_files": 5027,
+  "production_file_comparison": {
+    "expected_files": 5027,
+    "actual_files": 5027,
+    "missing": [],
+    "unexpected": [],
+    "different": []
+  },
+  "uninstall_preserved_user_data": true,
+  "semantic_accuracy_certified": false,
+  "date": "2026-11-01",
+  "provider": "local Qwen3 4B",
+  "source_language": "auto",
+  "actual_documents": [
+    {
+      "sample": "8页文章",
+      "pages": 8,
+      "completed_pages": 8,
+      "coverage": {
+        "eligible_units": 114,
+        "rendered_units": 114,
+        "unresolved_units": 0,
+        "protected_units": 184
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 11,
+      "seconds": 401.063,
+      "cache_condition": "Fresh real installation, first article, zero imported translation caches",
+      "same_installed_window": true
+    },
+    {
+      "sample": "12页文章",
+      "pages": 12,
+      "completed_pages": 12,
+      "coverage": {
+        "eligible_units": 113,
+        "rendered_units": 113,
+        "unresolved_units": 0,
+        "protected_units": 45
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 21,
+      "seconds": 530.828,
+      "cache_condition": "Same installed window, subsequently opening a different article, no imported translation caches",
+      "same_installed_window": true
+    },
+    {
+      "sample": "10页文章",
+      "pages": 10,
+      "completed_pages": 10,
+      "coverage": {
+        "eligible_units": 163,
+        "rendered_units": 163,
+        "unresolved_units": 0,
+        "protected_units": 215
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 38,
+      "seconds": 380.093,
+      "cache_condition": "Frozen client, reusing genuine existing sentence caches; every cache is rechecked",
+      "same_installed_window": false
+    },
+    {
+      "sample": "47页文章",
+      "pages": 47,
+      "completed_pages": 47,
+      "coverage": {
+        "eligible_units": 541,
+        "rendered_units": 541,
+        "unresolved_units": 0,
+        "protected_units": 1471
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 0,
+      "seconds": 554.453,
+      "cache_condition": "Frozen client, reusing genuine existing sentence caches; every cache is rechecked",
+      "same_installed_window": false
+    }
+  ],
+  "fixed_translation_fixture": false,
+  "private_document_content_published": false,
+  "public_core_source": false,
+  "screenshot": {
+    "sha256": "647bec35faf6667fb676c6158d8b7795cc5b23e31a3fd803ce6da5b9d161df44",
+    "origin": "Unmodified actual Qt window grab of the installed 1.43.25 executable after a real new translation",
+    "paper_doi": "https://doi.org/10.1038/s41467-025-57606-y",
+    "paper_authors": "Yitao Li et al.",
+    "paper_year": 2025,
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "adaptation": "Right-hand pages are machine translation"
+  }
+}
