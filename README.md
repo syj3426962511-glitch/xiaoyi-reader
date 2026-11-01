@@ -56,9 +56,13 @@
 
 ## 获取与联系
 
-此公开仓库提供功能介绍、实机展示、去敏测试结果和参考资料。核心业务代码、私人配置、论文全文和客户端二进制暂不公开；完整客户端、安装包与私有维护资料保留在本机。需要使用或交流开发，请联系作者。
+此公开仓库提供功能介绍、实机展示、去敏测试结果和参考资料，不上传核心业务代码、私人配置、论文全文或客户端二进制。已验收的客户端安装包通过[官方下载页](https://xiaoyi-reader.syj3426962511.chatgpt.site/download/)提供；私有维护源码保留在本机。需要交流开发，请联系作者。
 
-新安装包已通过本机验收；账户中心只提供实际已发布的版本，不把尚未上传的包标为可下载。
+1.43.26 安装包已完成上传和云端全部字节的分段回读，并按文件顺序计算整包 SHA-256，与通过本机验收的安装包一致；发布清单已读回核对。
+
+- [官方下载页](https://xiaoyi-reader.syj3426962511.chatgpt.site/download/) · [1.43.26 安装包](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/downloads/xiaoyi-reader-1.43.26-setup.exe)
+- 文件大小：3,828,578,523 字节（约 3.57 GiB）。
+- SHA-256：`73c5bdfa2553d8c3f8e5e1bf3f20a0a94d477b82424d1d3d32b8d5b42352f438`。
 
 参考组件：[BabelDOC](https://github.com/funstory-ai/BabelDOC)、[PyMuPDF](https://github.com/pymupdf/PyMuPDF)、[Qt for Python](https://doc.qt.io/qtforpython-6/)。
 
