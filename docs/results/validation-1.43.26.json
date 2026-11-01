@@ -1,0 +1,88 @@
+{
+  "version": "1.43.26",
+  "exe_sha256": "79664671e46e41c50cd61b89a353661977c43c294a26e58dddcefcacdc565200",
+  "installer_sha256": "73c5bdfa2553d8c3f8e5e1bf3f20a0a94d477b82424d1d3d32b8d5b42352f438",
+  "same_window_installed_documents": [
+    13,
+    16,
+    47
+  ],
+  "initial_imported_translation_cache_files": 8845,
+  "frozen_feature_groups": 13,
+  "source_regressions": 96,
+  "verified_application_modules": 242,
+  "verified_babeldoc_modules": 182,
+  "production_files": 5027,
+  "uninstall_preserved_user_data": true,
+  "semantic_accuracy_certified": false,
+  "date": "2026-11-01",
+  "provider": "local Qwen3 4B",
+  "source_language": "auto",
+  "actual_documents": [
+    {
+      "sample": "13页文章",
+      "pages": 13,
+      "completed_pages": 13,
+      "coverage": {
+        "eligible_units": 134,
+        "rendered_units": 134,
+        "unresolved_units": 0,
+        "protected_units": 54
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 1,
+      "seconds": 300.641,
+      "first_translated_preview_seconds": 54.516,
+      "same_installed_window": true,
+      "cache_condition": "Actual personal rules and genuine prior caches; each PDF regenerated and checked; not a cold benchmark"
+    },
+    {
+      "sample": "16页文章",
+      "pages": 16,
+      "completed_pages": 16,
+      "coverage": {
+        "eligible_units": 197,
+        "rendered_units": 197,
+        "unresolved_units": 0,
+        "protected_units": 122
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 30,
+      "seconds": 266.687,
+      "first_translated_preview_seconds": 43.812,
+      "same_installed_window": true,
+      "cache_condition": "Actual personal rules and genuine prior caches; each PDF regenerated and checked; not a cold benchmark"
+    },
+    {
+      "sample": "47页文章",
+      "pages": 47,
+      "completed_pages": 47,
+      "coverage": {
+        "eligible_units": 541,
+        "rendered_units": 541,
+        "unresolved_units": 0,
+        "protected_units": 1471
+      },
+      "pdf_hard_issues": 0,
+      "native_labels_for_review": 0,
+      "seconds": 592.515,
+      "first_translated_preview_seconds": 56.546,
+      "same_installed_window": true,
+      "cache_condition": "Actual personal rules and genuine prior caches; each PDF regenerated and checked; not a cold benchmark"
+    }
+  ],
+  "personal_state_used": true,
+  "layout_rule_rows": 9,
+  "genuine_failed_candidate_text_resumed": true,
+  "fixed_translation_fixture": false,
+  "private_document_content_published": false,
+  "public_core_source": false,
+  "screenshot": {
+    "sha256": "b4971cb380f205e7c41ae1b5c4297c81be2b22cb855c7ea4a5b2c7691419873d",
+    "origin": "Unmodified actual Qt window grab of the installed 1.43.26 executable after real local text translation",
+    "source_is_original_demo_text": true,
+    "depicts": "Text translation; PDF results are documented separately by aggregate receipts",
+    "source": "Scientific reading keeps the source, translation, figures, equations, and links together.",
+    "translation": "科学阅读将原文、译文、图表、公式和链接保持在一起。"
+  }
+}
