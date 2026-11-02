@@ -2,7 +2,7 @@
 
 面向科研文献的 Windows 双语阅读、PDF 翻译和知识整理客户端。支持本地 Qwen3 4B 与已配置的在线翻译服务。
 
-[官网](https://syj3426962511-glitch.github.io/xiaoyi-reader/) · [实机结果](https://syj3426962511-glitch.github.io/xiaoyi-reader/validation/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/) · [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/)
+[官网](https://syj3426962511-glitch.github.io/xiaoyi-reader/) · [实机结果](https://syj3426962511-glitch.github.io/xiaoyi-reader/validation/) · [账户中心](https://xiaoyi-accounts.xiaoyi-account-deployment.workers.dev/) · [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/)
 
 ## 本版修复
 
@@ -56,11 +56,11 @@
 
 ## 获取与联系
 
-此公开仓库提供功能介绍、实机展示、去敏测试结果和参考资料，不上传核心业务代码、私人配置、论文全文或客户端二进制。已验收的客户端安装包通过[官方下载页](https://xiaoyi-reader.syj3426962511.chatgpt.site/download/)提供；私有维护源码保留在本机。需要交流开发，请联系作者。
+此公开仓库提供功能介绍、实机展示、去敏测试结果和参考资料，不上传核心业务代码、私人配置、论文全文或客户端二进制。安装包下载状态以[当前服务状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html)为准；私有维护源码保留在本机。需要交流开发，请联系作者。
 
 1.43.26 安装包已完成上传和云端全部字节的分段回读，并按文件顺序计算整包 SHA-256，与通过本机验收的安装包一致；发布清单已读回核对。
 
-- [官方下载页](https://xiaoyi-reader.syj3426962511.chatgpt.site/download/) · [1.43.26 安装包](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/downloads/xiaoyi-reader-1.43.26-setup.exe)
+- [账户中心](https://xiaoyi-accounts.xiaoyi-account-deployment.workers.dev/) · [安装包下载状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html#download)
 - 文件大小：3,828,578,523 字节（约 3.57 GiB）。
 - SHA-256：`73c5bdfa2553d8c3f8e5e1bf3f20a0a94d477b82424d1d3d32b8d5b42352f438`。
 
@@ -71,4 +71,4 @@
 
 ## 网络与服务状态
 
-官网已提供[GitHub Pages入口](https://syj3426962511-glitch.github.io/xiaoyi-reader/)，实机图片在同一站点保存。原Sites账户及下载服务的入口仍返回HTTP 403，尚未恢复；[服务状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html)如实区分官网、账户和安装包下载。通用网络修复1.43.27仍是候选，未替换正式1.43.26。
+官网已提供[GitHub Pages入口](https://syj3426962511-glitch.github.io/xiaoyi-reader/)，实机图片在同一站点保存。账户中心已迁移到作者自己的服务，原账号登录、资料读写、设备授权和退出流程通过实际接口验证，用户已确认原账号网页登录成功。安装包存储另行恢复；[服务状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html)分别列出当前进展。通用网络修复1.43.27仍是候选，未替换正式1.43.26。
