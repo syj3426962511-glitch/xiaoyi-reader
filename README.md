@@ -71,4 +71,4 @@
 
 ## 网络与服务状态
 
-官网已提供[GitHub Pages入口](https://syj3426962511-glitch.github.io/xiaoyi-reader/)，实机图片在同一站点保存。账户中心已迁移到作者自己的服务，原账号登录、资料读写、设备授权和退出流程通过实际接口验证，用户已确认原账号网页登录成功。安装包存储另行恢复；[服务状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html)分别列出当前进展。通用网络修复1.43.27仍是候选，未替换正式1.43.26。
+官网已提供[GitHub Pages入口](https://syj3426962511-glitch.github.io/xiaoyi-reader/)，实机图片在同一站点保存。账户中心已迁移到作者自己的服务，原账号登录、资料读写、设备授权和退出流程通过实际接口验证，用户已确认原账号网页登录成功。安装包存储另行恢复；[服务状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html)分别列出当前进展。通用网络修复1.43.27候选已通过实际打包账户连接、41项启动交互检查与16项网络回归，正式安装包仍1.43.26。
