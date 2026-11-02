@@ -1,0 +1,52 @@
+{
+  "version": "1.43.28",
+  "tag": "r43-v82",
+  "status": "verified_installed",
+  "model": "Qwen3 4B Instruct 2507 Q4_K_M",
+  "fixed_translation_fixture": false,
+  "frozen_exe_sha256": "57a73f6962f9b52a314cb469077b9427167a03814d8d77c2727170ab0043dadd",
+  "installer_sha256": "7006c77827501c0c80c5a80b460782b71c2180b03a4dff11e3b42b43b9e89cb5",
+  "installer_bytes": 3828785569,
+  "identical_installed_files": 5028,
+  "application_modules_verified": 244,
+  "babeldoc_modules_verified": 182,
+  "frozen_feature_suites_passed": 13,
+  "focused_rule_tests_passed": 40,
+  "personal_api_provider_count": 7,
+  "default_service_source": "作者共享云端",
+  "documents": [
+    {
+      "case": "8页新文档，无既有译文",
+      "source_pages": 8,
+      "completed_pages": 8,
+      "rendered_units": 114,
+      "eligible_units": 114,
+      "failed_sentences": 0,
+      "pending_sentences": 0,
+      "hard_pdf_issues": 0,
+      "initial_cache_files": 0,
+      "new_sentence_translations": 282,
+      "sentence_cache_hits": 1,
+      "total_seconds": 448.95,
+      "original_unchanged": true,
+      "visible_pages_rendered": true
+    },
+    {
+      "case": "12页原问题文档，真实缓存复检",
+      "source_pages": 12,
+      "completed_pages": 12,
+      "rendered_units": 168,
+      "eligible_units": 168,
+      "failed_sentences": 0,
+      "pending_sentences": 0,
+      "hard_pdf_issues": 0,
+      "initial_cache_files": 904,
+      "new_sentence_translations": 196,
+      "sentence_cache_hits": 200,
+      "total_seconds": 764.11,
+      "original_unchanged": true,
+      "visible_pages_rendered": true
+    }
+  ],
+  "scope": "Structural and completeness checks, plus targeted visual review; not a complete scientific semantic certification."
+}

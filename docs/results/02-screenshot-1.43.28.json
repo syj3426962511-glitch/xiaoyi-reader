@@ -1,0 +1,8 @@
+{
+  "version": "1.43.28",
+  "sha256": "be46c4923036eea97ccde0fb1ef266752e2c11a9566cd9c263d0ebefb3fef4d6",
+  "capture": "Actual installed client content, Qt QWidget.grab, original pixels; Windows title bar excluded",
+  "profile": "Isolated actual installation without personal credentials",
+  "model": "Qwen3 4B; real inference on a self-authored numerical sample sentence",
+  "generated_or_redrawn": false
+}

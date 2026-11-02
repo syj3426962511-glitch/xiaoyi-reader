@@ -5,3 +5,6 @@
 
 /* Service availability uses normal readable text. */
 .service-notice{margin-top:24px;margin-bottom:24px;padding:24px;border:1px solid #bfd1b9;border-radius:16px;background:#f2f6ec}.service-notice h2{font-size:24px;line-height:1.4;margin:0 0 12px}.service-notice p{font-size:18px;line-height:1.8;color:#204c42;margin:12px 0}.table-scroll{overflow:auto}.table-scroll table{width:100%;border-collapse:collapse;font-size:18px}.table-scroll th,.table-scroll td{text-align:left;padding:14px;border-bottom:1px solid #d9e3d5}
+
+/* Current product information stays readable. */
+.hero-note,.window-bar p,.visual-caption,.visual-caption>span,.metrics span,.metrics>p,.feature p,.inline-note,.faq-section p,footer,footer div,footer div>span{font-size:16px;color:#294c40}.brand small{display:none}.hero-note{line-height:1.8}.viewer-help{display:none}
