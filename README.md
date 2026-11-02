@@ -2,7 +2,7 @@
 
 面向科研文献的 Windows 双语阅读、PDF 翻译和知识整理客户端。支持本地 Qwen3 4B 与已配置的在线翻译服务。
 
-[官网](https://xiaoyi-reader.syj3426962511.chatgpt.site/) · [实机结果](https://xiaoyi-reader.syj3426962511.chatgpt.site/validation/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/) · [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/)
+[官网](https://syj3426962511-glitch.github.io/xiaoyi-reader/) · [实机结果](https://syj3426962511-glitch.github.io/xiaoyi-reader/validation/) · [账户中心](https://xiaoyi-reader-accounts.syj3426962511.chatgpt.site/) · [项目网页](https://syj3426962511-glitch.github.io/xiaoyi-reader/)
 
 ## 本版修复
 
@@ -32,7 +32,7 @@
 
 ## 真实客户端页面
 
-![实际安装后的1.43.26文本翻译窗口](https://xiaoyi-reader.syj3426962511.chatgpt.site/validation/assets/text-14326.png)
+![实际安装后的1.43.26文本翻译窗口](docs/assets/text-14326.png)
 
 这是本机安装后客户端使用本地模型翻译自有示例文本的原始窗口截图，没有生成或重绘。它展示文本翻译页面；PDF完成结果另以表格和去敏核查数据记录。论文全文、私人审稿件及其截图仅在本机交付。
 
@@ -67,3 +67,8 @@
 参考组件：[BabelDOC](https://github.com/funstory-ai/BabelDOC)、[PyMuPDF](https://github.com/pymupdf/PyMuPDF)、[Qt for Python](https://doc.qt.io/qtforpython-6/)。
 
 联系：[3426962511@qq.com](mailto:3426962511@qq.com)。
+
+
+## 网络与服务状态
+
+官网已提供[GitHub Pages入口](https://syj3426962511-glitch.github.io/xiaoyi-reader/)，实机图片在同一站点保存。原Sites账户及下载服务的入口仍返回HTTP 403，尚未恢复；[服务状态](https://syj3426962511-glitch.github.io/xiaoyi-reader/service-status.html)如实区分官网、账户和安装包下载。通用网络修复1.43.27仍是候选，未替换正式1.43.26。
