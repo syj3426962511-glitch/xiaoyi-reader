@@ -1,13 +1,48 @@
 {
   "version": "1.43.29",
   "frozen_exe_sha256": "77483b76b87f6af40e2cb5cb8bf735eb2ee2651336c645609e4cfd6a6d74075e",
-  "installer_sha256": "3621bc7549668c3411679b3af46fd18681edf42cd4d991617af4a720e4f1a1c5",
-  "runtime_files": 5028,
+  "installer_sha256": "420620ae66497b089032e989ec7a90cbe84c7159de9206b86699446a93c1948d",
+  "runtime_files": 5029,
   "application_modules": 245,
   "babeldoc_modules": 182,
   "frozen_feature_groups": 13,
   "rule_tests": 55,
   "documents": [
+    {
+      "condition": "15页文档，真实缓存复检",
+      "provider": "local Qwen3 4B with genuine verified sentence cache",
+      "pages": 15,
+      "verified_pages": 15,
+      "rendered_units": 148,
+      "eligible_units": 148,
+      "unresolved_units": 0,
+      "failed_sentences": 0,
+      "pending_sentences": 0,
+      "hard_pdf_issues": 0,
+      "minutes": 5.7,
+      "source_unchanged": true,
+      "actual_installed_gui": true,
+      "fixed_translation_fixture": false
+    },
+    {
+      "condition": "8页文档，真实缓存复检",
+      "provider": "local Qwen3 4B with genuine verified sentence cache",
+      "pages": 8,
+      "verified_pages": 8,
+      "rendered_units": 114,
+      "eligible_units": 114,
+      "unresolved_units": 0,
+      "failed_sentences": 0,
+      "pending_sentences": 0,
+      "hard_pdf_issues": 0,
+      "minutes": 8.41,
+      "source_unchanged": true,
+      "actual_installed_gui": true,
+      "fixed_translation_fixture": false
+    }
+  ],
+  "semantic_full_text_certification": false,
+  "first_pass_document_tests": [
     {
       "condition": "15页原失败任务，真实译文复检补译",
       "provider": "local Qwen3 4B / genuine old DeepSeek translations reused",
@@ -41,5 +76,8 @@
       "fixed_translation_fixture": false
     }
   ],
-  "semantic_full_text_certification": false
+  "first_pass_payload_files": 5028,
+  "ordinary_startup_verified": true,
+  "startup_interaction_checks": 40,
+  "public_https_verified": true
 }
