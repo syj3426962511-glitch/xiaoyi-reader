@@ -1,0 +1,15 @@
+{
+  "version": "1.43.29",
+  "kind": "actual installed Qt window content capture",
+  "dimensions": [
+    2220,
+    1410
+  ],
+  "sha256": "5e2b7e09835a8bcab220d1b6afc467c478a5b422a28800719a23c32b91aa71fc",
+  "synthetic_image": false,
+  "redrawn": false,
+  "contains_private_paper": false,
+  "contains_api_keys": false,
+  "frozen_exe_sha256": "77483b76b87f6af40e2cb5cb8bf735eb2ee2651336c645609e4cfd6a6d74075e",
+  "windows_system_titlebar_included": false
+}
