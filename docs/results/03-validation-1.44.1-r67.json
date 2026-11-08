@@ -1,0 +1,78 @@
+{
+  "version": "1.44.1",
+  "revision": 67,
+  "status": "installed_checks_passed_release_pending",
+  "shared_regression": 135,
+  "installed_payload_files": 5387,
+  "installer_sha256": "d2f6d5f2c19d3f88ba42fa8c1c5a2623028f35a8eb66144ca103f4a88b85bda6",
+  "feature_groups": [
+    {
+      "case": "pages",
+      "status": "passed",
+      "seconds": 11.078
+    },
+    {
+      "case": "annotation",
+      "status": "passed",
+      "seconds": 7.218
+    },
+    {
+      "case": "study",
+      "status": "passed",
+      "seconds": 6.89
+    },
+    {
+      "case": "workspace",
+      "status": "passed",
+      "seconds": 6.907
+    },
+    {
+      "case": "knowledge",
+      "status": "passed",
+      "seconds": 4.047
+    },
+    {
+      "case": "media",
+      "status": "passed",
+      "seconds": 1.953
+    },
+    {
+      "case": "adaptive",
+      "status": "passed",
+      "seconds": 5.422
+    },
+    {
+      "case": "position",
+      "status": "passed",
+      "seconds": 1.204
+    },
+    {
+      "case": "flows",
+      "status": "passed",
+      "seconds": 7.796
+    }
+  ],
+  "feature_transport": "Controlled AI replies verify feature lifecycle; actual speech synthesis tested.",
+  "cold_document": {
+    "model": "Qwen3 4B",
+    "pages": 12,
+    "verified_pages": 12,
+    "missing_fill": 0,
+    "pdf_hard_issues": 0,
+    "ocr_cache_initial": "empty",
+    "translation_cache_initial": "empty",
+    "human_intervention": false,
+    "pipeline_seconds": 585.0,
+    "seconds_per_processed_page": 48.75,
+    "first_page_ready_seconds": 552.875
+  },
+  "geometry": {
+    "pure_text_blocks_measured": 102,
+    "both_endpoints_within_0_7pt": 74,
+    "note": "Heading hierarchy and short one-line paragraphs still have measured endpoint differences."
+  },
+  "ordinary_startup": "pending_desktop_unlock",
+  "release_promoted": false,
+  "account_deployment": "97072dcd-1733-4bed-b05d-bf457709309f",
+  "release_storage": false
+}
