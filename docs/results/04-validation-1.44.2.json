@@ -1,0 +1,45 @@
+{
+  "version": "1.44.2",
+  "date": "2026-11-09",
+  "installed_payload_files": 5387,
+  "frozen_fault_tests": {
+    "passed": 18,
+    "total": 18
+  },
+  "feature_groups": {
+    "passed": 9,
+    "total": 9,
+    "transport": "controlled"
+  },
+  "startup_interaction_checks": 38,
+  "real_document_transport": "configured cloud API, gpt-6-luna low",
+  "unattended": true,
+  "business_code_changed_during_run": false,
+  "initial_caches": "empty installation OCR and translation caches",
+  "papers": [
+    {
+      "pages": 5,
+      "verified_pages": 5,
+      "total_seconds": 77.203,
+      "average_seconds_per_page": 15.441,
+      "additional_repair_attempts": 2,
+      "passed_repair_attempts": 1,
+      "hard_pdf_issues": 0
+    },
+    {
+      "pages": 12,
+      "verified_pages": 12,
+      "total_seconds": 107.687,
+      "average_seconds_per_page": 8.974,
+      "additional_repair_attempts": 6,
+      "passed_repair_attempts": 6,
+      "hard_pdf_issues": 0
+    }
+  ],
+  "boundaries": [
+    "Automated validation checks content inventory, protected objects and rendered ink/row collisions; semantic accuracy still benefits from review.",
+    "Original figures, formula crops and bibliographic records are preserved.",
+    "No promise of identical timing or zero errors for unseen PDFs.",
+    "No personal keys, core code or full papers published."
+  ]
+}
