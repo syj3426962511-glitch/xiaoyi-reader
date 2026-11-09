@@ -1,0 +1,40 @@
+{
+  "version": "1.44.3",
+  "date": "2026-11-10",
+  "installer_bytes": 3966246592,
+  "installer_sha256": "043984267b4e7f675c215572e88fc8fc752815cc46df7096a610574d8e705bb1",
+  "installed_exe_sha256": "a1a6a80acf296bc798bd541446f88b3de42d6c2144d332b1bb66fcee9badb031",
+  "installed_payload_files_verified": 5387,
+  "frozen_tests": {
+    "tests": 24,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "native_windows_checks": 44,
+  "code_changed_during_document_tests": false,
+  "test_channel": "configured GPT channel; gpt-6-luna, low",
+  "local_ocr_translation_cache_initially_empty": true,
+  "papers": [
+    {
+      "pages": 14,
+      "verified_pages": 14,
+      "total_seconds": 253.11,
+      "average_seconds_per_page": 18.079,
+      "hard_issues": 0,
+      "recovery_attempts": 18,
+      "content_checks_passed": 13,
+      "experience_reused": 0
+    },
+    {
+      "pages": 5,
+      "verified_pages": 5,
+      "total_seconds": 72.0,
+      "average_seconds_per_page": 14.4,
+      "hard_issues": 0,
+      "recovery_attempts": 1,
+      "content_checks_passed": 1,
+      "experience_reused": 1
+    }
+  ]
+}
